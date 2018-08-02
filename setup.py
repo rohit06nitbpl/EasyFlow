@@ -1,18 +1,21 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
     name='EasyFlow',
     version='0.1dev',
     author='Rohit Jain',
     author_email='rohit06nitbpl@gmail.com',
-    packages=['easyflow'],
-    scripts=['bin/test.py'],
-    url='http://pypi.python.org/pypi/EasyFlow/',
-    license='LICENSE.txt',
     description='Modular Distributed TensorFlow Framework',
-    long_description=open('README.md').read(),
-    install_requires=[
-        "tensorflow",
-        "tensorflow-gpu"
-    ],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url='http://pypi.python.org/pypi/EasyFlow/',
+    packages=setuptools.find_packages(),
+
+    scripts=['bin/test.py'],
+    license='LICENSE.txt',
+    
+    
 )
