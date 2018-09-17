@@ -2,8 +2,8 @@ import tensorflow as tf
 import os
 import sys
 import time
-import tfbs.source_code.tensorflow.pipeline.data_feeder as data_feeder
-#import tfbs.source_code.tensorflow.models.dreamc.data_reader as data_reeder
+
+from easyflow.pipeline import data_feeder
 
 class Model:
     def __init__(self, hparams, feeder_type):

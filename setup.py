@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='EasyFlow',
-    version='0.1dev',
+    version='0.1dev2',
     author='Rohit Jain',
     author_email='rohit06nitbpl@gmail.com',
     description='Modular Distributed TensorFlow Framework',

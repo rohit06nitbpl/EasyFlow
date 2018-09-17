@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: EasyFlow
-Version: 0.1.dev0
+Version: 0.1.dev1
 Summary: Modular Distributed TensorFlow Framework
 Home-page: http://pypi.python.org/pypi/EasyFlow/
 Author: Rohit Jain

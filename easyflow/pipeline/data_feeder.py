@@ -2,7 +2,7 @@ import tensorflow as tf
 import threading
 import time
 
-import tfbs.source_code.tensorflow.models.dreamc.data_reader
+import data_reader
 
 
 class Feeder:
